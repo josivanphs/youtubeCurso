@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Mygae extends StatelessWidget {
-  const Mygae({super.key});
+import 'app_widget.dart';
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Container(
-        color: Colors.white,
-      ),
-    );
-  }
+void main() {
+  runApp(AppWidget());
 }
