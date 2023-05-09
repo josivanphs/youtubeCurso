@@ -70,33 +70,6 @@ class HomePageState extends State<HomePage> {
               ),
               const CustomSwitcher()
             ]),
-            Container(
-              height: 50.0,
-            ),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text(
-                'Contador: $counter',
-              ),
-              const CustomSwitcher()
-            ]),
-            Container(
-              height: 50.0,
-            ),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text(
-                'Contador: $counter',
-              ),
-              const CustomSwitcher()
-            ]),
-            Container(
-              height: 50.0,
-            ),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text(
-                'Contador: $counter',
-              ),
-              const CustomSwitcher()
-            ]),
           ],
         ),
       ),
