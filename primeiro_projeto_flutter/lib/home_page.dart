@@ -20,6 +20,9 @@ class HomePageState extends State<HomePage> {
           child: ListView(
         children: [
           UserAccountsDrawerHeader(
+            currentAccountPicture: ClipOval(
+                child: Image.network(
+                    'https://scontent.fpll3-1.fna.fbcdn.net/v/t39.30808-6/344248394_556469516602541_1789471754050599955_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=S-XZTxRHSr4AX_Hw35U&_nc_ht=scontent.fpll3-1.fna&oh=00_AfD1jLyZ6t7swtNCVGCV6dqH8ZKJ6zDWA7PpQKIBFKQzSQ&oe=64609C04')),
             accountName: Text('Josivan Marques'),
             accountEmail: Text('jhosivan@outlook.com'),
           ),
